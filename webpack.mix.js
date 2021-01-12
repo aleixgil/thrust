@@ -6,10 +6,14 @@ mix
         'src/resources/js/jquery-ui-1.10.4.custom.min.js',
         'src/resources/js/utils.js',
         'src/resources/js/searcher.js',
+        'src/resources/js/orderedMultipleSelect.js',
         'src/resources/js/visibility.js',
         'src/resources/js/select2.min.js',
         'src/resources/js/scrollsaver.min.js',
         'src/resources/js/places.js',
         'src/resources/js/jquery.popupoverlay.js',
-    ], 'src/resources/js/thrust.min.js');
+    ], 'src/resources/js/thrust.min.js')
 
+        .styles([
+            'src/resources/css/orderedMultipleSelect.css',
+        ],'src/resources/css/thrust.min.css');

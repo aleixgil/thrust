@@ -46,6 +46,7 @@
             @if (! $fullPage) dropdownParent: $('{{config('thrust.popupId', '#popup')}}') @endif
         });
         setupVisibility({!! json_encode($hideVisibility)  !!}, {!! json_encode($showVisibility)  !!});
+        setupOrderedMultipleSelect()
     </script>
 
     <script>

@@ -10,9 +10,10 @@
     "production": "cross-env NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "devDependencies": {
+    "@babel/helper-compilation-targets": "^7.10.4",
     "bootstrap-sass": "^3.3.7",
     "cross-env": "^5.2.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "laravel-mix": "^5.0.1",
     "less": "^2.7.3",
     "less-loader": "^4.1.0"
